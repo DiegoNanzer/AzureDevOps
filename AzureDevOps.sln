@@ -1,9 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30621.155
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps", "AzureDevOps\AzureDevOps.csproj", "{90E46FAF-691A-478F-9FC0-D53474BFA23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.API", "AzureDevOps\AzureDevOps.API.csproj", "{90E46FAF-691A-478F-9FC0-D53474BFA23F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2230F151-17D7-41F7-97FE-8E8A28B4A7A2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 API", "1.0 API", "{3F142D66-3B5E-4376-9EBD-CA6361B88D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 Aplication", "2.0 Aplication", "{CCE99B3B-2370-4908-B8D9-8BC6DE5D56A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Domain", "3.0 Domain", "{6D67B3EA-9052-4C87-B74C-B9B62AC53D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infra", "4.0 Infra", "{9616B50A-0BC6-4EB6-ACC8-880D6F6FC37D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.0 Test", "5.0 Test", "{50900261-1C82-4869-9F16-A226C77A1231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.UserCase", "AzureDevOps.UserCase\AzureDevOps.UserCase.csproj", "{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Domain", "AzureDevOps.Domain\AzureDevOps.Domain.csproj", "{1FD0E810-311D-4F7C-8546-A5A3D696EABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Infra", "AzureDevOps.Infra\AzureDevOps.Infra.csproj", "{6E21FC11-056F-4A7E-AC15-BD2956345A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Test.Infra", "AzureDevOps.Test.Infra\AzureDevOps.Test.Infra.csproj", "{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Test.Domain", "AzureDevOps.Test.Domain\AzureDevOps.Test.Domain.csproj", "{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Infra.UserCase", "AzureDevOps.Infra.UserCase\AzureDevOps.Infra.UserCase.csproj", "{8F8F2108-D478-4DDC-9CF4-090530073516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +43,42 @@ Global
 		{90E46FAF-691A-478F-9FC0-D53474BFA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E46FAF-691A-478F-9FC0-D53474BFA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E46FAF-691A-478F-9FC0-D53474BFA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD0E810-311D-4F7C-8546-A5A3D696EABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD0E810-311D-4F7C-8546-A5A3D696EABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD0E810-311D-4F7C-8546-A5A3D696EABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD0E810-311D-4F7C-8546-A5A3D696EABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E21FC11-056F-4A7E-AC15-BD2956345A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E21FC11-056F-4A7E-AC15-BD2956345A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E21FC11-056F-4A7E-AC15-BD2956345A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E21FC11-056F-4A7E-AC15-BD2956345A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8F2108-D478-4DDC-9CF4-090530073516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8F2108-D478-4DDC-9CF4-090530073516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8F2108-D478-4DDC-9CF4-090530073516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8F2108-D478-4DDC-9CF4-090530073516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90E46FAF-691A-478F-9FC0-D53474BFA23F} = {3F142D66-3B5E-4376-9EBD-CA6361B88D9B}
+		{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5} = {CCE99B3B-2370-4908-B8D9-8BC6DE5D56A8}
+		{1FD0E810-311D-4F7C-8546-A5A3D696EABF} = {6D67B3EA-9052-4C87-B74C-B9B62AC53D0C}
+		{6E21FC11-056F-4A7E-AC15-BD2956345A7E} = {9616B50A-0BC6-4EB6-ACC8-880D6F6FC37D}
+		{32AB457E-C7A2-47A4-93B7-7776CD8C21CB} = {50900261-1C82-4869-9F16-A226C77A1231}
+		{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA} = {50900261-1C82-4869-9F16-A226C77A1231}
+		{8F8F2108-D478-4DDC-9CF4-090530073516} = {50900261-1C82-4869-9F16-A226C77A1231}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD8BECF0-17A9-4A3E-A7B2-97615199FF21}
