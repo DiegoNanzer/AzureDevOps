@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2230F151-17D7-41F7-97FE-8E8A28B4A7A2}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -21,17 +22,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infra", "4.0 Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.0 Test", "5.0 Test", "{50900261-1C82-4869-9F16-A226C77A1231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.UserCase", "AzureDevOps.UserCase\AzureDevOps.UserCase.csproj", "{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.UserCase", "AzureDevOps.UserCase\AzureDevOps.UserCase.csproj", "{F2188C67-B349-4D87-8CA7-8FFE2FDC7DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Domain", "AzureDevOps.Domain\AzureDevOps.Domain.csproj", "{1FD0E810-311D-4F7C-8546-A5A3D696EABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Domain", "AzureDevOps.Domain\AzureDevOps.Domain.csproj", "{1FD0E810-311D-4F7C-8546-A5A3D696EABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Infra", "AzureDevOps.Infra\AzureDevOps.Infra.csproj", "{6E21FC11-056F-4A7E-AC15-BD2956345A7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Infra", "AzureDevOps.Infra\AzureDevOps.Infra.csproj", "{6E21FC11-056F-4A7E-AC15-BD2956345A7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Test.Infra", "AzureDevOps.Test.Infra\AzureDevOps.Test.Infra.csproj", "{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Test.Infra", "AzureDevOps.Test.Infra\AzureDevOps.Test.Infra.csproj", "{32AB457E-C7A2-47A4-93B7-7776CD8C21CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Test.Domain", "AzureDevOps.Test.Domain\AzureDevOps.Test.Domain.csproj", "{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Test.Domain", "AzureDevOps.Test.Domain\AzureDevOps.Test.Domain.csproj", "{DCA3111A-C464-4B29-9860-1B7BB4ACA6EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOps.Infra.UserCase", "AzureDevOps.Infra.UserCase\AzureDevOps.Infra.UserCase.csproj", "{8F8F2108-D478-4DDC-9CF4-090530073516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOps.Infra.UserCase", "AzureDevOps.Infra.UserCase\AzureDevOps.Infra.UserCase.csproj", "{8F8F2108-D478-4DDC-9CF4-090530073516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
